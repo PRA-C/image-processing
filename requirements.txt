@@ -1,0 +1,9 @@
+ollama
+diffusers>=0.21.0
+torch
+torchvision
+transformers
+accelerate
+pillow
+safetensors
+invisible-watermark
