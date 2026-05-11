@@ -105,7 +105,8 @@ def run(image_filename: str, instruction: str):
 
 if __name__ == "__main__":
     # ── Configure your edit here ───────────────────────────────
-    IMAGE_FILE  = "IMG_8683.jpg"          # file inside input_images/
+    IMAGE_FILE  = "IMG_8683.jpg"
+    print('image is being processed')          # file inside input_images/
     INSTRUCTION = "make background blue and add snow fall"
 
     run(IMAGE_FILE, INSTRUCTION)
